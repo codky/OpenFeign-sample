@@ -1,0 +1,20 @@
+[2023-10-30 14:52:55:7153][main] INFO  c.e.f.FeignStudy2Application - Starting FeignStudy2Application using Java 1.8.0_362 on DESKTOP-TA3B8IC with PID 16576 (D:\project\msa\second-service-practice\FeignStudy2\build\classes\java\main started by admin in D:\project\msa\second-service-practice\FeignStudy2)
+[2023-10-30 14:52:55:7164][main] INFO  c.e.f.FeignStudy2Application - No active profile set, falling back to 1 default profile: "default"
+[2023-10-30 14:52:56:8210][main] INFO  o.s.c.context.scope.GenericScope - BeanFactory id=21891d90-6499-37fe-a381-9ed37ee0eef3
+[2023-10-30 14:52:56:8631][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+[2023-10-30 14:52:56:8642][main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8085"]
+[2023-10-30 14:52:56:8643][main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2023-10-30 14:52:56:8643][main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+[2023-10-30 14:52:57:8922][main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2023-10-30 14:52:57:8923][main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1663 ms
+[2023-10-30 14:53:02:14378][main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+[2023-10-30 14:53:02:14468][main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8085"]
+[2023-10-30 14:53:02:14519][main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8085 (http) with context path ''
+[2023-10-30 14:53:10:22082][main] INFO  o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+[2023-10-30 14:53:10:22125][main] INFO  c.e.f.FeignStudy2Application - Started FeignStudy2Application in 21.577 seconds (JVM running for 26.642)
+[2023-10-30 14:53:20:32465][http-nio-8085-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-10-30 14:53:20:32466][http-nio-8085-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[2023-10-30 14:53:20:32468][http-nio-8085-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[2023-10-30 14:53:20:32730][http-nio-8085-exec-1] INFO  c.e.f.controller.MyRestController - ### MyRestController 에서 /example/human 호출 ###
+[2023-10-30 14:56:05:196959][http-nio-8085-exec-2] INFO  c.e.f.controller.MyRestController - ### MyRestController 에서 /eureka-test-first 호출 ### => port : First Service on PORT 8081
+[2023-10-30 14:56:27:219093][http-nio-8085-exec-4] INFO  c.e.f.controller.MyRestController - ### MyRestController 에서 /eureka-test-second 호출 ### => port : Second Service on PORT 8082
